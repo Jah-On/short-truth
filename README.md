@@ -1,10 +1,11 @@
 # short-truth
-An simple Python script that calculates an approximate number of shares still short using FINRA data.
+A simple Python script(s) that calculates an approximate number of shares still short using FINRA data.
 
 This data goes back until August of 2009.
 
 How to use:
 - Download the code.
+- Install httpx: ```python3 -m pip install httpx```.
 - Run the file for your desired exchange(s) with the desired ticker.
 - E.x. ```python3 short-truth-NNE.py TSLA``` << Case insensitive/
 
